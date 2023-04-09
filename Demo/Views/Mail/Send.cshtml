@@ -1,0 +1,26 @@
+﻿@model Demo.BL.Models.MailVM
+@{
+    ViewData["Title"] = "Send";
+}
+
+
+<div class="block-header">
+    <a>@SharedLocalizer["Home"] / @SharedLocalizer["Mail"] / @SharedLocalizer["Send"]</a>
+</div>
+
+<h2>Send Mail</h2>
+<h3>@TempData["Msg"]</h3>
+
+<form asp-controller="Mail" asp-action="Send" class="form-group">
+    <label for="title">@SharedLocalizer["Title"]</label>
+    <input asp-for="Title" class="form-control" /><br>
+    
+    <label for="content">@SharedLocalizer["Content"]</label>
+    <textarea asp-for="Content" rows="4" class="form-control"></textarea>
+
+    <center>
+        <input type="submit" value="@SharedLocalizer["Send"]" class="btn btn-primary" />
+    </center>
+
+
+</form>

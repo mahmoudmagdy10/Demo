@@ -1,0 +1,29 @@
+﻿@model IdentityRole
+
+
+@{
+    ViewData["Title"] = @SharedLocalizer["Edit"];
+}
+
+<a>@SharedLocalizer["Home"] /@SharedLocalizer["Roles"]/ @SharedLocalizer["Edit"] </a>
+
+
+<div class="block-header text-info"> @ViewBag.EditRole </div>
+
+
+<form class="form-group" asp-controller="Role" asp-action="Edit">
+
+    <label asp-for="Name">@SharedLocalizer["Name"]</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+
+
+    <center>
+        <input type="submit" value="@SharedLocalizer["Update"]" class="btn btn-primary" />
+        <a asp-controller="Role" asp-action="Index" class="btn btn-success">@SharedLocalizer["BackToData"]</a>
+        <a asp-controller="Role" asp-action="AddOrRemoveUsers" asp-route-RoleId="@Model.Id" class="btn btn-warning">Add Or Remove Users</a>
+    </center>
+
+</form>
+
+

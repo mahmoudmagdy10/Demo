@@ -1,0 +1,27 @@
+﻿@model IdentityRole
+
+
+@{
+    ViewData["Title"] = @SharedLocalizer["Details"];
+}
+
+@section BootstrapSelect{
+    <link href="~/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+}
+
+<div class="block-header">
+    <a>@SharedLocalizer["Home"] /@SharedLocalizer["Roles"]/ @SharedLocalizer["Details"] </a>
+</div>
+
+
+<label asp-for="Name">@SharedLocalizer["Name"]</label>
+<input type="text" class="form-control" asp-for="Name" readonly />
+<br />
+
+<br />
+
+<center>
+    <a asp-controller="Role" asp-action="Index" class="btn btn-success">@SharedLocalizer["BackToData"]</a>
+    <a asp-controller="Role" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">@SharedLocalizer["Update"]</a>
+    <a asp-controller="Role" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-primary">@SharedLocalizer["Delete"]</a>
+</center>

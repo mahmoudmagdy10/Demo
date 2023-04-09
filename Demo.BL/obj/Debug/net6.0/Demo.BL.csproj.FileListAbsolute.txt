@@ -1,0 +1,15 @@
+C:\Users\migo\source\repos\Demo.BL\bin\Debug\net6.0\Demo.BL.deps.json
+C:\Users\migo\source\repos\Demo.BL\bin\Debug\net6.0\Demo.BL.dll
+C:\Users\migo\source\repos\Demo.BL\bin\Debug\net6.0\Demo.BL.pdb
+C:\Users\migo\source\repos\Demo.BL\bin\Debug\net6.0\Demo.DAL.dll
+C:\Users\migo\source\repos\Demo.BL\bin\Debug\net6.0\Demo.DAL.pdb
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.csproj.AssemblyReference.cache
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.AssemblyInfoInputs.cache
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.AssemblyInfo.cs
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.csproj.CoreCompileInputs.cache
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.csproj.CopyComplete
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.dll
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\refint\Demo.BL.dll
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\Demo.BL.pdb
+C:\Users\migo\source\repos\Demo.BL\obj\Debug\net6.0\ref\Demo.BL.dll

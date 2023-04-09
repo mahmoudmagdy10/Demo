@@ -1,0 +1,36 @@
+﻿@model Demo.BL.Models.DepartmentVM
+@using Demo.DAL.Extend;
+@inject SignInManager<ApplicationUser> signInManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="block-header">
+    <a>@SharedLocalizer["Details"] </a>
+</div>
+
+
+<label asp-for="Id">@SharedLocalizer["Id"]</label>
+<input type="text" class="form-control" asp-for="Id" disabled />
+<br />
+
+<label asp-for="Name">@SharedLocalizer["Details"]</label>
+<input type="text" class="form-control" asp-for="Name" disabled />
+<br />
+
+
+<label asp-for="Code">@SharedLocalizer["Code"]</label>
+<input type="text" class="form-control" asp-for="Code" disabled />
+
+<br /> <br />
+
+<center>
+    <a asp-controller="Department" asp-action="Index" class="btn btn-primary">@SharedLocalizer["BackToData"]</a>
+    @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+    {
+        <a asp-controller="Department" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">@SharedLocalizer["Edit"]</a>
+        <a asp-controller="Department" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-primary">@SharedLocalizer["Delete"]</a>
+    }
+</center>
