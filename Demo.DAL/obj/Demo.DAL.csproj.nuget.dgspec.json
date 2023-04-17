@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migo\\source\\repos\\Demo.DAL\\Demo.DAL.csproj": {}
+    "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\Demo.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migo\\source\\repos\\Demo.DAL\\Demo.DAL.csproj": {
+    "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migo\\source\\repos\\Demo.DAL\\Demo.DAL.csproj",
+        "projectUniqueName": "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "projectName": "Demo.DAL",
-        "projectPath": "C:\\Users\\migo\\source\\repos\\Demo.DAL\\Demo.DAL.csproj",
+        "projectPath": "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "packagesPath": "C:\\Users\\migo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\migo\\source\\repos\\Demo.DAL\\obj\\",
+        "outputPath": "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migo\\AppData\\Roaming\\NuGet\\NuGet.Config",

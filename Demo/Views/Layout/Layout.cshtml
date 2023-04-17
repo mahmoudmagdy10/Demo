@@ -258,6 +258,21 @@
                         </li>
 
                     }
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <li>
+                            <a href="javascript:void(0);" class="menu-toggle">
+                                <i class="material-icons">fingerprint</i>
+                                <span>Chat</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a asp-controller="Chat" asp-action="Index">Chat Page</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    }
 
                 </ul>
             </div>
@@ -440,6 +455,7 @@
 
     @RenderSection("BootstrapSelectJS", required: false)
     @RenderSection("DataTablesSection", required: false)
+    @RenderSection("Scripts", required: false)
 
     <!-- Slimscroll Plugin Js -->
     <script src="~/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>

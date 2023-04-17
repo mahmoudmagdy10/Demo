@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Demo.DAL.Extend;
 using Microsoft.AspNetCore.Identity;
+using Demo.BL.Helper.Hubs;
 
 namespace Demo
 {
@@ -65,12 +66,13 @@ namespace Demo
                 options.Password.RequiredUniqueChars = 0;
             }).AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<DemoContext>()
-                .AddTokenProvider<DataProtectorTokenProvider<ApplicationUser>>(TokenOptions.DefaultProvider); 
+                .AddTokenProvider<DataProtectorTokenProvider<ApplicationUser>>(TokenOptions.DefaultProvider);
 
-
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
+            app.MapHub<ChatHub>("/chatHub");
 
             #region All Needed Configurations Need To Localization
             var supportedCultures = new[] {

@@ -1,0 +1,87 @@
+﻿
+@inject Demo.BL.Interface.IUserRep UserRep;
+@{
+    ViewData["Title"] = "Chat Page";
+    //var UsersList = ViewBag.UsersList;
+    //var UserName = ViewBag.User;
+}
+@*<div class="container">
+    <div class="row">
+        <div class="col-2">Receiver</div>
+        <select id="receiver">
+            <option>Choose User</option>
+            @foreach (var item in UserRep.Get())
+            {
+                <option value="@item.Id">@item.UserName</option>
+
+            }
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-2">Message</div>
+        <div class="col-4"><input type="text" id="message" /></div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <input type="button" id="sendMessage" value="Send Message" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="sender" name="sender" value="@User.Identity.Name" />*@
+
+<div class="container">
+    <div class="row">&nbsp;</div>
+    @*<div class="row">
+    <div class="col-2">Sender</div>
+    <div class="col-4"><input type="text" id="userInput" /></div>
+    </div>*@
+    <input type="hidden" id="userId" value="@User.Identity.Name" />
+
+    <div class="row">
+        <div class="col-2">Receiver</div>
+        <select id="receiverInput">
+            @foreach (var item in UserRep.Get())
+            {
+                <option value="@item.UserName">@item.UserName</option>
+
+            }
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-2">Message</div>
+        <div class="col-4"><input type="text" id="messageInput" /></div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <input type="button" id="sendButton" value="Send Message" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <ul id="messagesList">
+            <li>Messages</li>
+        </ul>
+
+    </div>
+</div>
+@section Scripts
+
+{
+    <script src="~/plugins/jquery/jquery.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+}

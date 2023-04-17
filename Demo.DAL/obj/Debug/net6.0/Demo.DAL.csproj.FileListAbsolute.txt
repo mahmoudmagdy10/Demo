@@ -12,3 +12,17 @@ C:\Users\migo\source\repos\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
 C:\Users\migo\source\repos\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
 C:\Users\migo\source\repos\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
 C:\Users\migo\source\repos\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+E:\Courses\.NET\Prijects\Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll

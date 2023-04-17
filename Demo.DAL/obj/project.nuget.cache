@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ormE6FKwZBCFpAoLrHZibWtJMkpemdwzLStK9MRpDtf4yzQqx8ZEoKrlesJH1+MBropP4YCX/siI7fcXCkF00A==",
+  "dgSpecHash": "JVVaBPf+h6Q+MnPCGcAVJhnBF0Mh0YZM9yl7GSZVbU7Qk7GJTPWiCLiX2QBGdy6n1DUg4QujjH1APly5XnVvRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\migo\\source\\repos\\Demo.DAL\\Demo.DAL.csproj",
+  "projectFilePath": "E:\\Courses\\.NET\\Prijects\\Demo\\Demo.DAL\\Demo.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\migo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\migo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
